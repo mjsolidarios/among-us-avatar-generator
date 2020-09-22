@@ -54,7 +54,7 @@ export default () => {
       <button onClick={() => exportComponentAsPNG(avatarRef)} className="ml-4 py-3 w-full my-8 bg-white rounded-full text-gray-800">Download Your Avatar</button>
       </div>
 
-      <small>Made for my students | <a className="text-blue-500" href="http://">Learn More</a></small>
+      <small>Made for my students | <a className="text-blue-500" href="https://github.com/mjsolidarios/among-us-avatar-generator">Learn More</a></small>
     </div>
   )
 }
