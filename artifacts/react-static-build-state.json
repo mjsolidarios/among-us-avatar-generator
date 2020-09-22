@@ -1,0 +1,71 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "/home/user/Repositories/among-us-avatar-generator/src/index.tsx",
+  "plugins": [
+    "react-static-plugin-typescript",
+    [
+      "/home/user/Repositories/among-us-avatar-generator/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/user/Repositories/among-us-avatar-generator/src/pages"
+      }
+    ],
+    [
+      "css-loaders-plugin",
+      {
+        "purgecss": false
+      }
+    ],
+    "/home/user/Repositories/among-us-avatar-generator/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/user/Repositories/among-us-avatar-generator/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/user/Repositories/among-us-avatar-generator"
+  ],
+  "paths": {
+    "ROOT": "/home/user/Repositories/among-us-avatar-generator",
+    "SRC": "/home/user/Repositories/among-us-avatar-generator/src",
+    "DIST": "/home/user/Repositories/among-us-avatar-generator/dist",
+    "ASSETS": "/home/user/Repositories/among-us-avatar-generator/dist",
+    "PLUGINS": "/home/user/Repositories/among-us-avatar-generator/plugins",
+    "TEMP": "/home/user/Repositories/among-us-avatar-generator/tmp",
+    "ARTIFACTS": "/home/user/Repositories/among-us-avatar-generator/artifacts",
+    "PUBLIC": "/home/user/Repositories/among-us-avatar-generator/public",
+    "NODE_MODULES": "/home/user/Repositories/among-us-avatar-generator/node_modules",
+    "EXCLUDE_MODULES": "/home/user/Repositories/among-us-avatar-generator/node_modules",
+    "PACKAGE": "/home/user/Repositories/among-us-avatar-generator/package.json",
+    "HTML_TEMPLATE": "/home/user/Repositories/among-us-avatar-generator/dist/index.html",
+    "STATIC_DATA": "/home/user/Repositories/among-us-avatar-generator/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
