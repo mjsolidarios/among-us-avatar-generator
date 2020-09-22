@@ -27,7 +27,7 @@
     [
       "css-loaders-plugin",
       {
-        "purgecss": false
+        "purgecss": true
       }
     ],
     "/home/user/Repositories/among-us-avatar-generator/node_modules/react-static-plugin-reach-router/browser.api.js",

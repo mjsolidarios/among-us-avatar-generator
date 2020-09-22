@@ -10,6 +10,7 @@
     "serve": "serve dist -p 3000 -s"
   },
   "dependencies": {
+    "@babel/runtime": "^7.11.2",
     "@reach/router": "^1.2.1",
     "axios": "^0.19.0",
     "react": "^16.9.0",
